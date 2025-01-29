@@ -81,7 +81,22 @@ while ($contador <= 30) {
 }
 
 
-7 - EXERCICIO: Peça ao usuário um número limite e conte quantos números são múltiplos de 2 ou 5 nesse intervalo.*/
+7 - EXERCICIO: Peça ao usuário um número limite e conte quantos números são múltiplos de 2 ou 5 nesse intervalo.
+
+$numero = isset($_GET["numero"])?$_GET["numero"]:null;
+$contador = 1;
+$contarMultiplos = 0;
+
+while ($contador <= $numero){
+    if ($contador % 2 === 0 || $contador % 5 === 0) { 
+      $contarMultiplos++;
+    }
+    $contador++;
+}
+echo "Quantidade de números múltiplos de 2 ou 5 entre 1 e $numero é  $contarMultiplos";   
+
+
+8 - EXERCICIO: Peça ao usuário para inserir números (um de cada vez) até que a soma dos números seja maior que 50.*/
 
 
 ?>
