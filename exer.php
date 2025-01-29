@@ -1,5 +1,6 @@
 <?php 
-/*
+/* Exercícios Básicos
+
 1 - EXERCICIO: Escreva um programa que imprima os números de 1 a 10 usando while.
 
 $contador = 1;
@@ -35,6 +36,17 @@ while ($i <=10 ) {
     $i++;
 }
 
-5 - EXERCICIO: Calcule e exiba a soma dos números de 1 a 100.*/
+5 - EXERCICIO: Calcule e exiba a soma dos números de 1 a 100.
 
+$contador = 1;
+$soma = 0;
+while ($contador <= 100) {
+    $soma += $contador;
+    $contador++;
+    
+}echo "A soma de todos os numeros entre 1 e 100 é $soma";
+
+Exercícios Intermediários
+
+5 - EXERCICIO: Calcule o fatorial de um número fornecido pelo usuário.*/
 ?>
