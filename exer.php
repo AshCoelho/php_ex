@@ -24,6 +24,17 @@ while ($contador <=15) {
     echo $contador . "";
     $contador += 2;
 }
-*/
+
 4 - EXERCICIO: Exiba a tabuada do número 5 usando while.
+
+$contador = 5;
+$i = 1;
+while ($i <=10 ) {
+    $tabuada = $contador * $i;
+    echo "$contador X $i = $tabuada <br>";
+    $i++;
+}
+
+5 - EXERCICIO: Calcule e exiba a soma dos números de 1 a 100.*/
+
 ?>
