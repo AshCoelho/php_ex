@@ -63,8 +63,15 @@ while ($contador <= $numero ){
 echo $fatorial;
 
 
-6 - EXERCICIO: Faça uma contagem regressiva de 10 até 1 e exiba "Lançar foguete!" ao final.*/
+6 - EXERCICIO: Faça uma contagem regressiva de 10 até 1 e exiba "Lançar foguete!" ao final.
 
+$contador = 11;
+while ($contador > 1) {
+    $contador--;
+    echo "<br>$contador";
+}echo "<br>Lançar foguete!";
+
+6 - EXERCICIO: Exiba os números de 1 a 30 que são divisíveis por 3.*/
 
 
 ?>
