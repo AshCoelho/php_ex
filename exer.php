@@ -1,5 +1,6 @@
 <?php 
-/* Exercícios Básicos
+/* 
+--------------------Exercícios Básicos-------------------------
 
 1 - EXERCICIO: Escreva um programa que imprima os números de 1 a 10 usando while.
 
@@ -46,7 +47,24 @@ while ($contador <= 100) {
     
 }echo "A soma de todos os numeros entre 1 e 100 é $soma";
 
-Exercícios Intermediários
+--------------------Exercícios Intermediários-------------------------
 
-5 - EXERCICIO: Calcule o fatorial de um número fornecido pelo usuário.*/
+5 - EXERCICIO: Calcule o fatorial de um número fornecido pelo usuário.
+
+$numero = isset($_GET["numero"])?$_GET["numero"]:null;
+$fatorial = 1;
+$contador = 1;
+
+while ($contador <= $numero ){
+    $fatorial = $fatorial * $contador;
+    $contador+=1;
+}
+
+echo $fatorial;
+
+
+6 - EXERCICIO: Faça uma contagem regressiva de 10 até 1 e exiba "Lançar foguete!" ao final.*/
+
+
+
 ?>
