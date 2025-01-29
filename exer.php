@@ -71,7 +71,17 @@ while ($contador > 1) {
     echo "<br>$contador";
 }echo "<br>Lançar foguete!";
 
-6 - EXERCICIO: Exiba os números de 1 a 30 que são divisíveis por 3.*/
+6 - EXERCICIO: Exiba os números de 1 a 30 que são divisíveis por 3.
+
+echo "Os números divisíveis por 3 são: ";
+$contador = 1;
+while ($contador <= 30) {
+    echo $contador . " ";
+    $contador+=3;
+}
+
+
+7 - EXERCICIO: Peça ao usuário um número limite e conte quantos números são múltiplos de 2 ou 5 nesse intervalo.*/
 
 
 ?>
