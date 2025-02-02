@@ -19,7 +19,7 @@ while ($contador <= 10){
 $contador = 2;
 while ($contador <= 20) {
     echo $contador . " ";
-    $contador += 2;
+    $contador += 2;  // A CADA ITERAÇÃO, AUMENTAMOS $contador EM 2, GARANTINDO QUE APENAS OS NÚMEROS PARES SEJAM EXIBIDOS
 }
 
 
@@ -32,7 +32,8 @@ $i = 1;
 
 while ($i <= 10){
 $tabuada = $contador * $i;
-$i++;
+$i++;     // A CADA ITERAÇÃO, $i É INCREMENTADO
+
 echo "<br>$contador X $i = $tabuada";
 
 }
@@ -50,11 +51,14 @@ while($contador >= 1) {
 
 
 $contador = 1;
-$soma = 0;
+$soma = 0;     //A VARIÁVEL $soma ARMAZENA A SOMA TOTAL
 
 while ($contador <= 50) {
-    $soma += $contador;
+    $soma += $contador; 
+    // O LOOP PERCORRE DE 1 A 50, SOMANDO CADA NÚMERO Á VARIÁVEL $soma
+
     $contador++;
+
 } echo "os números de 1 a 50 é igual a $soma";
 
 6 - Peça para o usuário digitar um número maior que zero. Se ele digitar um número inválido, continue pedindo até que ele forneça um válido.
@@ -107,7 +111,8 @@ $numeroAtual = 1;
 while ($contador <= 10) {
     echo $anterior . " ";
 
-    $proximoNumero = $anterior + $numeroAtual;
+    $proximoNumero = $anterior + $numeroAtual; // A CADA ITERAÇÃO, CALCULAMOS O PRÓXIMO NÚMERO 
+    
     $anterior = $numeroAtual;
     $numeroAtual = $proximoNumero;
 
