@@ -97,6 +97,29 @@ while ($numero > 0) {
 
 } echo "Você digitou $contador números positivos.";
 
-*/
 
+9 - Implemente um programa que exiba os 10 primeiros números da sequência de Fibonacci
+
+$contador = 0;
+$anterior = 0;
+$numeroAtual = 1;
+
+while ($contador <= 10) {
+    echo $anterior . " ";
+
+    $proximoNumero = $anterior + $numeroAtual;
+    $anterior = $numeroAtual;
+    $numeroAtual = $proximoNumero;
+
+    $contador++;
+}
+
+/*$10 - Faça um programa que exiba todos os múltiplos de 3 entre 1 e 30.
+
+contador = 3;
+while ($contador <= 30 ){
+    echo  $contador . " ";
+    $contador+=3;
+
+}*/
 ?>
