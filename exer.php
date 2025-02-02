@@ -98,5 +98,15 @@ echo "Quantidade de números múltiplos de 2 ou 5 entre 1 e $numero é  $contarM
 
 8 - EXERCICIO: Peça ao usuário para inserir números (um de cada vez) até que a soma dos números seja maior que 50.*/
 
+$numero = isset($_GET["numero"])?$_GET["numero"]:null;
+$soma = 0;
+$contador = 1;
+while ($soma <= $numero){
+    
+    $soma += $numero;
+    echo "Soma atual: $soma <br>";
+}
+
+echo "A soma dos números ultrapassou 50! Valor final: $soma\n";
 
 ?>
